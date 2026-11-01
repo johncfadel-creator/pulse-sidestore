@@ -1,0 +1,30 @@
+{
+  "name": "Pulse",
+  "identifier": "io.github.johncfadel-creator.pulse",
+  "subtitle": "Suivi biométrique style Whoop",
+  "iconURL": "https://raw.githubusercontent.com/johncfadel-creator/pulse-sidestore/main/icon.png",
+  "tintColor": "00F59B",
+  "apps": [
+    {
+      "name": "Pulse",
+      "bundleIdentifier": "com.yourteam.pulse",
+      "developerName": "johncfadel-creator",
+      "subtitle": "Récupération, Effort, Sommeil",
+      "localizedDescription": "Synchronise ta Fitbit via Google Health, calcule Récupération, Strain et Sommeil, et les écrit dans Apple Santé quand c'est possible.",
+      "iconURL": "https://raw.githubusercontent.com/johncfadel-creator/pulse-sidestore/main/icon.png",
+      "tintColor": "00F59B",
+      "category": "lifestyle",
+      "versions": [],
+      "appPermissions": {
+        "entitlements": [
+          "com.apple.developer.healthkit"
+        ],
+        "privacy": {
+          "NSHealthShareUsageDescription": "Lire ta FC, VFC, sommeil, pas et calories pour calculer tes scores.",
+          "NSHealthUpdateUsageDescription": "Écrire dans Apple Santé les données importées depuis Fitbit."
+        }
+      }
+    }
+  ],
+  "news": []
+}
