@@ -14,7 +14,17 @@
       "iconURL": "https://raw.githubusercontent.com/johncfadel-creator/pulse-sidestore/main/icon.png",
       "tintColor": "00F59B",
       "category": "lifestyle",
-      "versions": [],
+      "versions": [
+        {
+          "version": "1.1.0",
+          "buildVersion": "3",
+          "date": "2026-11-01",
+          "localizedDescription": "L'app marche sans Apple Santé (données Fitbit gardées dans l'app), erreur Apple Santé affichée, explications des scores en touchant les anneaux.",
+          "downloadURL": "https://github.com/johncfadel-creator/pulse-sidestore/releases/download/v1.1.0/Pulse.ipa",
+          "size": 3133795,
+          "minOSVersion": "17.0"
+        }
+      ],
       "appPermissions": {
         "entitlements": [
           "com.apple.developer.healthkit"
